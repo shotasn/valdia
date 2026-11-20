@@ -1,0 +1,392 @@
+﻿異世界ストーリー用 背景画像一覧
+基本背景50枚
+
+番号早見表
+BG1.png　大通り
+BG2.png　住宅街
+BG3.png　裏路地
+BG4.png　市場のある広場
+BG5.png　城門
+BG6.png　農村
+BG7.png　港
+BG8.png　普通の家の外観
+BG9.png　家庭の居間・食卓
+BG10.png　素朴な寝室
+BG11.png　裕福な屋敷の外観
+BG12.png　上品な私室
+BG13.png　応接室
+BG14.png　庭園
+BG15.png　冒険者ギルド
+BG16.png　食堂・酒場
+BG17.png　宿の客室
+BG18.png　商店
+BG19.png　鍛冶工房
+BG20.png　神殿の礼拝堂
+BG21.png　書庫・書斎
+BG22.png　教室
+BG23.png　治療室
+BG24.png　牢屋
+BG25.png　城の外観
+BG26.png　謁見の間
+BG27.png　宴会・舞踏会の大広間
+BG28.png　上品な廊下
+BG29.png　訓練場
+BG30.png　草原
+BG31.png　街道
+BG32.png　森の道
+BG33.png　森の空き地
+BG34.png　深い森
+BG35.png　川辺
+BG36.png　湖畔
+BG37.png　山道
+BG38.png　渓谷
+BG39.png　海岸
+BG40.png　荒野
+BG41.png　砂漠
+BG42.png　雪原
+BG43.png　ダンジョンの扉
+BG44.png　洞窟通路
+BG45.png　大空洞
+BG46.png　地上の遺跡
+BG47.png　古い石造りの回廊
+BG48.png　地下の大広間
+BG49.png　結晶洞窟
+BG50.png　カオスコアの間
+
+保存先　背景_BG1-BG50
+画像名　BG1.png ～ BG50.png
+
+共通方針
+・横長16:9を指定。完成版は高さ941ピクセル、幅1670〜1672ピクセル（約16:9）。
+・手描きアニメ背景調。自然な遠近感、柔らかな光、素材の質感を統一。
+・人物、魔物、文字、国旗、固有の家紋、現代的な機械は描かない。
+・前景に人物の立ち絵を重ねられる空間を取る。
+・普通の家庭は清潔で穏やか、裕福でも貧しくもない暮らし。
+・屋敷は上品で温かい印象。城・屋敷の紋章や国名は特定しない。
+・自然や遺跡の背景は、地上とダンジョン内部の両方で使える構成。
+・時間帯や天候の差分は、この基本50枚には含めない。
+・BG番号はファイル名として使用し、画像内には表示しない。
+
+制作方法
+内蔵の画像生成ツールで1枚ずつ生成する。
+各画像の生成指示は「共通プロンプト」＋各項目の「個別プロンプト」。
+
+制作結果
+BG1.png〜BG50.pngの全50枚を生成・保存済み。
+使用する完成版は、このTXTと同じフォルダ直下のBG1.png〜BG50.png。
+全画像を目視確認し、ファイルの読込・連番・重複・画像サイズを確認。
+
+仕上げ調整
+対象　BG2、BG4、BG7、BG8、BG10、BG15、BG16、BG19、BG21、BG22、BG23、BG27、BG29
+各地で使いやすいように、一部の遠景の城や紋章風の装飾を調整。
+調整前の画像は「初稿」サブフォルダに保管。
+調整対象は、初回生成後にその画像を参照して以下の編集プロンプトを適用。
+
+編集プロンプト
+Use case: precise-object-edit. The supplied image is the edit target. Make a narrowly targeted cleanup for a reusable fantasy visual-novel background. Remove every distant castle, fortress, palace, tall landmark spire, and monumental aqueduct seen in the far background or through windows. Replace those distant landmarks naturally with ordinary low rooftops, leafy trees, gently wooded hills, and sky appropriate to the existing scene. Remove heraldic hanging banners, flags, and coat-of-arms emblems from walls, counters, pillars and furnishings; restore the ordinary material behind removed hanging banners, and retain plain fabric with subtle non-heraldic decoration where fabric is structurally needed. Keep the main location, foreground and middle-ground buildings, boats, furniture, objects, lighting, camera, warm painterly anime style, composition and landscape aspect ratio exactly as in the supplied image. In a manor or hall, preserve the interior architecture. In the training yard preserve practice dummies and targets. Add no people, text, or new focal objects. Produce ONE finished image.
+
+
+共通プロンプト
+Use case: illustration-story. Create ONE finished background illustration for a Japanese fantasy visual novel. Landscape 16:9 composition. Consistent hand-painted anime background art with refined realistic perspective, gentle painterly textures, crisp architectural and natural details, soft cinematic natural light and restrained harmonious color. Medieval European-inspired sword-and-magic world, believable material reality, warm approachable aesthetic. Ground-level human eye height, enough clear foreground for character overlays, scene itself fills the frame. No characters, humanoids, crowds, silhouettes, monsters, animals, vehicles unless explicitly specified, readable text, numbers, captions, watermark, logo, borders, collage, panels, UI, modern technology, or contemporary objects. BG identifiers are file labels only and must never appear inside the artwork. Deliver a single image.
+
+背景一覧と個別プロンプト
+BG1　大通り
+ファイル名　BG1.png
+用途　王都・地方都市・商業都市の通行や買い物。
+個別プロンプト
+A broad cobblestone main street in a prosperous medieval fantasy city, warm limestone and timber merchant buildings of three to four floors, muted fabric awnings, wrought iron lanterns with small pale magic-stone lights. Street level view, generous clear foreground, buildings gently leading into the distance. Calm late morning. No dominant palace, unique landmark, crowds, or lettering.
+
+BG2　住宅街
+ファイル名　BG2.png
+用途　自宅周辺や訪問先へ向かう道。
+個別プロンプト
+A quiet residential lane in a medieval fantasy town, modest well-kept plaster and timber houses, small flower boxes and garden fences, stone paving, gentle afternoon light. Friendly ordinary neighborhood, comfortable everyday life, unobstructed lane in the foreground.
+
+BG3　裏路地
+ファイル名　BG3.png
+用途　近道・隠れ話・追跡・街の探索。
+個別プロンプト
+A narrow cobbled side alley between aged stone and timber town houses, a few closed wooden doors, simple barrels and a shaded archway at the far end. Soft daylight filtering down, subtle mystery without horror, readable details in the shadows, empty walkable foreground.
+
+BG4　市場のある広場
+ファイル名　BG4.png
+用途　買い物・待ち合わせ・祭り前後の場面。
+個別プロンプト
+An open market square in a medieval fantasy town, modest central stone fountain set in the middle distance, stalls with neutral cloth canopies, baskets of produce and folded fabrics, surrounding merchant houses. Warm morning sunlight, clear foreground space, market temporarily empty of people, no writing.
+
+BG5　城門
+ファイル名　BG5.png
+用途　街への出入り・出発・帰還。
+個別プロンプト
+A substantial town gate built into a pale stone defensive wall with two restrained towers and open wooden doors, viewed from the dirt road just outside the city. A few rooftops visible through the gate, green verge, clear midday sky, welcoming and secure, no banners or heraldry.
+
+BG6　農村
+ファイル名　BG6.png
+用途　村・郊外・農作業・旅の途中。
+個別プロンプト
+A peaceful farming village with a handful of modest timber and plaster cottages, vegetable plots and golden-green fields, a winding dirt lane in the foreground, distant low hills. Mild early summer daylight, ordinary comfortable rural life, no wind turbines or modern equipment.
+
+BG7　港
+ファイル名　BG7.png
+用途　港町・船旅の出発・船着き場。
+個別プロンプト
+A medieval fantasy harbor at quayside eye level, stone quay, ropes and mooring posts, wooden sailing vessels with furled cream sails, harbor warehouses in the middle distance, calm blue water. Clear fresh morning, generous empty foreground on the quay, no people or lettering.
+
+BG8　普通の家の外観
+ファイル名　BG8.png
+用途　ショウタとテゼの家や、普通の家庭の訪問先。
+個別プロンプト
+Exterior of an ordinary kind family's comfortable home in a medieval fantasy town, a modest two-story cream plaster and honey-brown timber house, weathered reddish roof tiles, small practical garden, wooden front door and simple fence. Neither luxurious nor run-down. Warm daylight and a clear foreground approach.
+
+BG9　家庭の居間・食卓
+ファイル名　BG9.png
+用途　家族の食事・団らん・相談。
+個別プロンプト
+Interior of a modest comfortable medieval fantasy family home, cream plaster walls, honey-brown exposed beams, simple wooden dining table and chairs, a small hearth, shelves of ordinary pottery, linen curtains. Cozy and well-kept, mild window daylight, clear floor area foreground, believable everyday family space.
+
+BG10　素朴な寝室
+ファイル名　BG10.png
+用途　起床・就寝・看病・二人の会話。
+個別プロンプト
+An ordinary comfortable bedroom in a medieval fantasy home, cream plaster walls and honey-brown exposed beams, simple wooden bed with plain linen bedding, small chest and bedside table, shuttered window and a discreet magic-stone lamp. Soft morning window light, age-neutral furnishings, clear floor foreground.
+
+BG11　裕福な屋敷の外観
+ファイル名　BG11.png
+用途　サリアの家や、貴族・富豪の屋敷。
+個別プロンプト
+Exterior of an elegant wealthy family's manor in a medieval fantasy world, pale limestone, restrained carved trim, muted blue-gray slate roof, tall windows, modest broad entrance steps, tidy shrubs and flowerbeds. Refined and welcoming, pleasant afternoon daylight, no coat of arms, clear approach foreground.
+
+BG12　上品な私室
+ファイル名　BG12.png
+用途　サリアの部屋・貴族邸や高級宿での会話。
+個別プロンプト
+An elegant private bedroom in a wealthy medieval fantasy manor, pale stone and cream plaster, polished warm wood, muted blue-green fabrics, refined bed and a small writing desk by tall windows, tasteful flowers. Welcoming age-neutral decor, soft daylight, no toys, no personal portraits, clear foreground.
+
+BG13　応接室
+ファイル名　BG13.png
+用途　屋敷・城・高級宿での面会や相談。
+個別プロンプト
+A refined reception room in a medieval fantasy manor, pale plaster walls, polished warm wooden trim, muted blue-green upholstered chairs and sofa around a low tea table, tall windows with simple elegant curtains. Restrained wealth and welcoming daylight, no heraldry or portraits, visible open floor in foreground.
+
+BG14　庭園
+ファイル名　BG14.png
+用途　サリアの家・城の庭・公園・散歩。
+個別プロンプト
+A graceful enclosed garden with a curving pale gravel path, green hedges, a modest stone fountain, flowering borders and a simple stone bench. Only a discreet pale stone wall in the background so it can belong to a manor, castle, or public park. Soft early summer afternoon, room to stand in the foreground.
+
+BG15　冒険者ギルド
+ファイル名　BG15.png
+用途　依頼の受注・報告・冒険者との交流。
+個別プロンプト
+A welcoming medieval fantasy adventurers' guild hall, broad sturdy timber reception counter in the middle distance, large noticeboard of unmarked parchment sheets, benches and modest gear racks, timber beams and pale stone walls. Warm window daylight and small magic-stone lamps, clear central floor, no text or people.
+
+BG16　食堂・酒場
+ファイル名　BG16.png
+用途　食事・噂話・交流・旅先での休憩。
+個別プロンプト
+A cozy medieval fantasy tavern dining room, worn clean wooden tables and chairs, service counter, a stone hearth and timber beams, ceramic mugs and a few dishes, side windows admitting warm late afternoon light. Comfortable modest establishment, clear foreground aisle, no patrons, lettering, or logos.
+
+BG17　宿の客室
+ファイル名　BG17.png
+用途　旅の休息・作戦会議・宿泊。
+個別プロンプト
+A tidy modest medieval fantasy inn guest room with two simple single beds, pale plaster walls and dark wooden beams, plain quilts, a travel chest and small shared table, shuttered window. Warm afternoon daylight, practical temporary accommodation, no personal belongings or modern objects.
+
+BG18　商店
+ファイル名　BG18.png
+用途　道具・雑貨の購入や素材売買。
+個別プロンプト
+Interior of a medieval fantasy general store, wooden service counter, organized shelves of plain jars, rolled cloth, rope, satchels, lanterns, and small travel supplies. Light plaster and timber interior, soft daylight, clear customer area foreground, labels blank and no readable writing.
+
+BG19　鍛冶工房
+ファイル名　BG19.png
+用途　武具の購入・修理・職人との会話。
+個別プロンプト
+A functional medieval fantasy blacksmith workshop, stone forge with a restrained warm fire, anvil, workbench and neatly hung hand tools, a few unfinished swords and armor components along the back wall. Daylight from an open side window balances warm forge light, detailed stone and iron, safe clear foreground.
+
+BG20　神殿の礼拝堂
+ファイル名　BG20.png
+用途　祈り・神官との面会・神々の伝承。
+個別プロンプト
+A quiet fantasy temple chapel, pale stone columns, a simple raised altar and benches, tall windows with abstract nonfigurative tinted glass, soft shafts of daylight and discreet lamps. A sacred contemplative atmosphere with clear open foreground, no recognizable real-world religious symbols, named deities, or statues.
+
+BG21　書庫・書斎
+ファイル名　BG21.png
+用途　勉強・調べ物・魔法や歴史の学習。
+個別プロンプト
+A medium-sized medieval fantasy library and study, tall dark wood bookshelves filled with varied unlettered book spines, sturdy reading table and chairs, parchment and closed books, tall window with gentle daylight. Warm scholarly atmosphere, empty foreground floor, no floating books or readable text.
+
+BG22　教室
+ファイル名　BG22.png
+用途　学校・私塾・魔法や一般教養の授業。
+個別プロンプト
+A medieval fantasy classroom with rows of simple wooden desks and chairs, cream plaster and timber walls, a blank dark slate teaching board, a teacher's desk and shelves of books, tall side windows. Clear gentle daylight, ordinary practical educational space, empty desks and no written symbols.
+
+BG23　治療室
+ファイル名　BG23.png
+用途　治療・看病・療養・治療師との会話。
+個別プロンプト
+A clean modest fantasy infirmary, two neatly made wooden beds with plain white linens, small wooden cabinets, bowls, folded bandages and dried medicinal herbs, a pale folding screen. Cream plaster walls, soft reassuring daylight, medieval materials, no medical machines or patients.
+
+BG24　牢屋
+ファイル名　BG24.png
+用途　拘束・救出・尋問・地下施設の探索。
+個別プロンプト
+An empty stone prison cell and short adjoining corridor in a medieval fantasy fortress, sturdy iron bars, a simple wooden bench, a small high barred window casting cool daylight onto old stone floor. Somber but clearly readable, no torture equipment, blood, people, text, or extreme horror.
+
+BG25　城の外観
+ファイル名　BG25.png
+用途　王城・領主の城・訪問や出発。
+個別プロンプト
+A dignified medium-large fantasy castle seen from an accessible approach courtyard, pale stone walls, several restrained towers and muted blue-gray roofs, broad entrance steps, ordinary surrounding greenery. Majestic yet believable, clear afternoon daylight, no banners, heraldry, unique monumental silhouette, or people.
+
+BG26　謁見の間
+ファイル名　BG26.png
+用途　王・領主との対面、報告、任命。
+個別プロンプト
+An elegant fantasy audience chamber, one clearly recognizable empty throne on a shallow raised dais at the far end, symmetrical pale stone columns, restrained muted blue drapery, polished stone floor and a simple central runner. Broad readable approach and clear foreground, dignified daylight, suitable for a king or regional ruler, no heraldry or inscriptions.
+
+BG27　宴会・舞踏会の大広間
+ファイル名　BG27.png
+用途　舞踏会・宴会・式典・貴族の集まり。
+個別プロンプト
+A spacious refined fantasy palace great hall suitable for balls, banquets and ceremonies, tall pale stone columns, elegant chandeliers with small magic-stone lights, polished floor, long tables positioned unobtrusively along the sides. Soft bright daylight through tall windows, open central dance floor, no throne or people.
+
+BG28　上品な廊下
+ファイル名　BG28.png
+用途　屋敷・城・学院などの大きな建物。
+個別プロンプト
+A refined long corridor in a medieval fantasy manor or academy, pale plaster and stone, warm wooden doors, tall arched side windows, modest wall lamps, a few potted plants and a muted runner. Gentle afternoon daylight and convincing perspective, no heraldry, portraits, or unique institutional symbols.
+
+BG29　訓練場
+ファイル名　BG29.png
+用途　剣術・魔法の練習、稽古、試合。
+個別プロンプト
+An open-air medieval fantasy training yard, level packed earth foreground, wooden practice dummies and simple archery targets at the far edge, weapon racks under a modest shelter, low stone boundary wall. Ordinary daylight, functional yard usable by a guild, school, or garrison, no people or readable markings.
+
+BG30　草原
+ファイル名　BG30.png
+用途　遊び・旅・採取・戦闘・草原型ダンジョン。
+個別プロンプト
+A broad natural grassy meadow in a fantasy world, varied green grasses and a few small wildflowers, low rolling hills and distant hazy mountains, expansive softly clouded blue sky. Eye level from open ground, beautiful clear early summer daylight, no buildings, paths, animals, or people.
+
+BG31　街道
+ファイル名　BG31.png
+用途　徒歩・馬車の旅、道中の会話、遭遇。
+個別プロンプト
+A well-traveled dirt road winding gently through green countryside toward distant low hills, natural grass verges and a few roadside trees, subtle wagon ruts. Broad open foreground road, mild late morning sky, no town landmarks, travelers, carts, sign lettering, or modern paving.
+
+BG32　森の道
+ファイル名　BG32.png
+用途　探索・採取・移動・森林型ダンジョン。
+個別プロンプト
+A walkable earthen trail through a temperate broadleaf forest, tall natural trunks and layered green canopy, moss and ferns at the edges, gentle dappled sunbeams. Open clear foreground and readable path into the distance, friendly exploratory mood, no people, animals, or fantasy structures.
+
+BG33　森の空き地
+ファイル名　BG33.png
+用途　幼少期の遊び・秘密の場所・休憩・訓練。
+個別プロンプト
+A peaceful small forest clearing surrounded by tall broadleaf trees, soft grass, a few mossy stones and one fallen log near the edge, filtered afternoon sunlight. Generous open ground in foreground and center, inviting and secluded, no campsite, structures, characters, or animals.
+
+BG34　深い森
+ファイル名　BG34.png
+用途　迷子・捜索・魔物との遭遇・危険地帯。
+個別プロンプト
+A dense deep temperate forest with old thick trunks, tangled roots, mossy rocks and rich undergrowth, a narrow navigable opening in the foreground. Cool diffuse canopy light, subtle distance mist, mysterious but clearly readable, no monsters, eyes, glowing mushrooms, or people.
+
+BG35　川辺
+ファイル名　BG35.png
+用途　水遊び・休憩・採取・水場。
+個別プロンプト
+A clear shallow river flowing past a gently sloping grassy and pebbled bank, rounded stones visible beneath the water, broadleaf trees on the opposite shore and distant green hills. Sunny tranquil early summer, accessible empty riverbank foreground, no bridges, houses, people, or animals.
+
+BG36　湖畔
+ファイル名　BG36.png
+用途　散歩・遠出・静かな会話・野営前の場面。
+個別プロンプト
+A tranquil freshwater lake with a natural gently curving shoreline, clear foreground of grass and smooth pebbles, distant wooded hills reflecting in still water, a few reeds at the edge. Soft serene afternoon daylight, spacious composition, no buildings, boats, people, or animals.
+
+BG37　山道
+ファイル名　BG37.png
+用途　山越え・採掘地への道・旅や討伐。
+個別プロンプト
+A traversable narrow mountain trail crossing a green and rocky slope, weathered stone outcrops, low shrubs and distant layered mountains. Eye level on the trail with clear foreground footing, fresh highland daylight, moderate believable elevation, no cliffside city, snow, people, or animals.
+
+BG38　渓谷
+ファイル名　BG38.png
+用途　険しい旅路・待ち伏せ・谷や峡谷の探索。
+個別プロンプト
+A dramatic but believable rocky gorge with a winding walkable path along the lower slope and a river far below, weathered cliffs on both sides, sparse hardy vegetation. Soft daylight reaching into the valley, strong depth and readable foreground, no bridges, buildings, people, or animals.
+
+BG39　海岸
+ファイル名　BG39.png
+用途　海辺の散歩・漂着・海沿いの旅。
+個別プロンプト
+A natural quiet seashore with pale sand, some smooth rocks at the edge, gentle blue-green waves and a distant headland under a softly clouded sky. Wide unobstructed foreground beach, warm clear daylight, no tropical palms, buildings, ships, people, or animals.
+
+BG40　荒野
+ファイル名　BG40.png
+用途　乾いた地方・危険地帯・荒野型ダンジョン。
+個別プロンプト
+An expansive dry rocky wasteland with dusty earth, low eroded stone formations, scattered hardy scrub and distant brown hills. Empty traversable foreground, neutral clear daylight and light atmospheric haze, natural restrained palette, no ruins, bones, lava, people, or animals.
+
+BG41　砂漠
+ファイル名　BG41.png
+用途　砂漠地方・砂丘の旅・砂漠型ダンジョン。
+個別プロンプト
+A vast sand desert with softly sculpted warm golden dunes, subtle wind ripples and a distant low rocky ridge, pale blue sky. Ground-level immersive view with a gentle open foreground slope, bright morning light retaining sand texture, no pyramids, settlements, travelers, or animals.
+
+BG42　雪原
+ファイル名　BG42.png
+用途　雪国・冬の旅・雪原型ダンジョン。
+個別プロンプト
+An open snowy plain with gentle drifts, a distant dark conifer tree line and pale mountains, soft clear cold daylight and faint blue shadows. Ground-level view with unobstructed snow foreground, pristine quiet atmosphere, no tracks, settlements, characters, or animals.
+
+BG43　ダンジョンの扉
+ファイル名　BG43.png
+用途　ダンジョンの発見・突入・帰還。
+個別プロンプト
+A single mysterious ancient-looking closed door of dark wood and weathered stone framing set into a neutral low rocky face, faint subtle cool light leaking around its edges, bare ground and a little grass around it. The door clearly suggests a threshold into another space. Daylight, readable approachable foreground, no letters, runes, monsters, or grand temple facade.
+
+BG44　洞窟通路
+ファイル名　BG44.png
+用途　自然洞窟・洞窟型ダンジョン・隠れ場所。
+個別プロンプト
+Interior of a natural rocky cave passage with irregular gray-brown walls, a rough but walkable floor and a bend leading deeper. Soft cool indirect light from behind the viewer, readable rock textures and shadows, moderate scale, no carved masonry, crystals, people, animals, or equipment.
+
+BG45　大空洞
+ファイル名　BG45.png
+用途　地下探索・地下の自然空間・強敵との遭遇。
+個別プロンプト
+A vast natural underground cavern with tall rough rock formations, scattered stalactites and broad walkable stone ground, a few low pools reflecting subdued light. Diffuse cool illumination from a high distant opening, awe and depth while keeping foreground readable, no masonry, crystals, people, or monsters.
+
+BG46　地上の遺跡
+ファイル名　BG46.png
+用途　遺跡の発見・野外探索・廃墟。
+個別プロンプト
+An ancient ruined stone complex outdoors, low broken walls, a few incomplete columns and one worn arch, grass and restrained ivy reclaiming the stones. Broad open approach foreground, soft daylight, flexible age and culture, no intact castle, statues, inscriptions, people, or monsters.
+
+BG47　古い石造りの回廊
+ファイル名　BG47.png
+用途　遺跡・地下迷宮・廃城・神殿の地下。
+個別プロンプト
+An old stone-built underground corridor with weathered arches and heavy block walls, slightly uneven flagstone floor, sparse moss in joints, a turn and archways into the distance. Subtle cool ambient light plus a few simple faint wall lamps, readable foreground, no inscriptions, traps, people, or monsters.
+
+BG48　地下の大広間
+ファイル名　BG48.png
+用途　探索の到達点・地下遺跡・強敵との戦闘。
+個別プロンプト
+A large ancient underground stone hall with thick weathered pillars, high vaulted ceiling partly lost in shadow, broad empty flagstone floor, simple arched doorways at the far wall. Quiet cool ambient illumination with readable foreground, monumental but flexible design, no throne, altar, central crystal, people, or monsters.
+
+BG49　結晶洞窟
+ファイル名　BG49.png
+用途　魔力の強い場所・鉱物採取・特殊なダンジョン。
+個別プロンプト
+A natural cavern with clusters of translucent pale blue and teal mineral crystals growing along rough rock walls, softly glowing mineral light reflected in small pools, clear walkable stone foreground. Beautiful restrained fantasy atmosphere, crystals integrated into geology, no central floating core, structures, text, people, or monsters.
+
+BG50　カオスコアの間
+ファイル名　BG50.png
+用途　ダンジョンの中枢・核の発見・破壊を判断する場面。
+個別プロンプト
+A secluded ancient underground chamber with restrained weathered stone architecture and a single mysterious irregular faceted chaos core suspended just above a low rough pedestal in the middle distance. Subtle violet-blue magical light, ample clear approach floor, mysterious rather than technological, no interface, runes, text, people, or monsters.
+
